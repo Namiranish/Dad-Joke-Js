@@ -19,7 +19,7 @@ async function getJoke(){
 
     // console.log(result);
     
-    display.innerText = `${result[0].joke}`
+    display.innerText = `${result[0].joke} 😆`
     }
     catch(error){
         display.innerText = 'Error occured';
